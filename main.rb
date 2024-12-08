@@ -6,7 +6,8 @@ class Transfer
   def initialize(bucket_balance = 0, credit_balances = [])
     @bucket_balance = bucket_balance
     @credit_balances = credit_balances
-    @cards = ['Capital One Venture X', 'Capital One Savor', 'Chase Sapphire', 'Southwest Rapid Rewards']
+    @cards = ['Capital One Venture One', 'Capital One Savor', 'Chase Sapphire', 'Southwest Rapid Rewards',
+              'Chase Ink Business Preferred']
   end
 
   def collect_input
