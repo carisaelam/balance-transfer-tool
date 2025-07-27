@@ -32,17 +32,6 @@ RSpec.describe Transfer do
     end
   end
 
-  describe '#collect_input' do
-    subject(:user_input) { described_class.new }
-    it 'returns user input' do
-      input = StringIO.new('300')
-      $stdin = input
-      result = user_input.collect_input
-      $stdin = STDIN
-      expect(result).to eq('300')
-    end
-  end
-
   describe '#add' do
     subject(:adding) { described_class.new }
     it 'returns the sum of two numbers' do

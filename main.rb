@@ -7,7 +7,7 @@ class Transfer
     @bucket_balance = bucket_balance
     @credit_balances = credit_balances
     @cards = ['Capital One Venture One', 'Capital One Savor', 'Chase Sapphire', 'Southwest Rapid Rewards',
-              'Chase Ink Business Preferred']
+              'Chase Ink Business Preferred', 'Disney Premier Visa']
   end
 
   def collect_input
